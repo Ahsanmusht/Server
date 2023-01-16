@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "simple server code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ahsan mushtaq",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "mongoose": "^6.6.7",
+    "nodemon": "^2.0.20",
+    "start": "^5.1.0"
+  }
+}

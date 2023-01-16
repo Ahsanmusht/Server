@@ -1,0 +1,184 @@
+    database file data
+
+    // // const students = {
+// //     name:"ahsan",
+// //     class:"server",
+// //     contact:"03400376898"
+// // }
+// // module.exports = students;
+
+
+
+// // yahan tak mangoose connected ho gaya hai
+
+
+// var signUp = new mongoose.Schema({
+//     Name:String,
+//     lastName:String,
+//     birthDate:String,
+
+// }); 
+
+
+// const stdModel = mongoose.model('signUpData',signUp);
+// // YAHAN TAK MODEL BAN CHUKA HAI
+
+// module.exports = {
+// stdModel
+// }
+
+
+
+
+server file data
+
+
+// app.get("/",function(req,res){
+
+//         res.send("Hello World !")
+//     })
+
+// app.get("/home",(req,res)=>{
+//     res.send("welcome to home page ")
+// })
+
+
+//class 2
+
+//  fs.writeFileSync("text.txt","My Name is ahmer",(err,data)=>{
+//     console.log("file created")
+//  })
+
+//  fs.writeFile("saqib.txt","hey my name is saqib ",(err,data)=>{
+//     console.log("====> this is saqib file",(data))
+//  })
+//  fs.readFile("./saqib.txt","utf-8",(err,data)=>{
+//     console.log(data)
+//  })
+
+
+//  fs.appendFile("./text.txt"," new add nh karoga",(err,data)=>{
+// console.log(err)
+//  })
+// fs.readFile("./text.txt",'utf-8',(err,data)=>{
+// console.log(data)
+// })
+
+// class 3rd
+
+
+
+// fs.readFile("text.txt","utf-8",(err,data)=>{
+//     console.log(data)
+// })
+
+
+// http.createServer((req,res)=>{
+//     res.writeHead(200, {'Content-Type':'application/json'});
+//     res.write(JSON.stringify(userModel))
+// }).listen(port,()=>{
+//     console.log("server is running on " .rainbow , port )
+// })
+
+// http.createServer((req,res)=>{
+// res.writeHead(200,{'Content-Type':'application/json'});
+// res.write(JSON.stringify({
+//     name:"sheikh ahmer ali",
+//     class:"bscs"
+// }))
+
+// }).listen(5000)
+
+
+
+// app.listen(port, ()=>{
+//     console.log("server is running on" , port)
+// })
+
+
+
+// class 4
+
+
+// this link for node js server;
+// https://www.tutorialspoint.com/nodejs/index.htm#
+
+
+
+
+// this link for officicial documentaion of database mongo db 
+// https://mongoosejs.com/docs/5.x/docs/deprecations.html
+
+
+
+// class 5 
+
+
+
+
+
+// var mongoose = require("mongoose");
+// const data = {
+//     name :"Kashan Adnan ",
+//     class:"5",
+//     age:8,
+//     phoneNumber:"03456276164"
+// }
+// mongoose.connect("mongodb+srv://ahsan:ahsan101010@cluster0.8fu8scl.mongodb.net/?retryWrites=true&w=majority",{ useNewUrlParser: true, useUnifiedTopology: true })
+
+// mongoose.connection.on("connected", ()=>{
+// console.log("mongoos is connected")
+// })
+
+// mongoose.connection.on("disconnected", ()=>{
+//     console.log("mongoos is disconnected");
+//     process.exit(1)
+//     })
+    
+// var userSchema = new mongoose.Schema({
+//     stdName : String,
+//     email : String,   
+//     rollNumber : String,
+//     phoneNumber : String,
+//     id : Number,
+//     data:{type:Date,default:Date.now}
+// })
+// var NewUsers = mongoose.model("NewUsers", userSchema)
+
+
+// module.exports = {
+//     userModelStd    
+// }
+
+
+
+//     var newPerson = NewUsers({
+//         "firstName": req.body.firstName,
+//         "lastName": req.body.lastName,
+//         "email": req.body.email,
+//         "password": req.body.password,
+//     });
+// // JSON.parse(newPerson)
+//     newPerson.save((err, data) => {
+//         if (!err) {
+//             console.log(data)
+//             res.status(200).send({
+//                 message: "User Data Found",
+//                 data
+
+//             })
+//             // console.log("user Not Found")
+//         } else {
+//             console.log("==>>", err)
+//             res.status(405).send({
+//                 message: "user creation faild"
+//             })
+//         };
+
+//     })
+// });
+
+
+
+
+
